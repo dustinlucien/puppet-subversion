@@ -7,15 +7,13 @@ useful.
 ## Usage
 
 ```puppet
-boxen::example { 'best example ever':
-  salutation => 'fam'
-}
+include subversion
 ```
 
 ## Required Puppet Modules
 
 * `boxen`
-* `anything-else`
+* `homebrew`
 
 ## Development
 
